@@ -24,7 +24,7 @@ const WS = context.PliegoDemo.WS;
 const ME = context.PliegoDemo.ME;
 const table = (name) => (workspace.tables[name] ||= []);
 await context.PliegoDemoSeed.seed({
-  user: { name: 'Demo', email: 'demo@licitia.invalid' }, WS, ME,
+  user: { name: 'Demo', email: 'demo@pliegoclaro.invalid' }, WS, ME,
   load: () => workspace, table, putFile: async () => {},
   sha256: async (buffer) => Buffer.from(await webcrypto.subtle.digest('SHA-256', buffer)).toString('hex'),
   dataset: async () => dataset, analyzePages: context.PliegoDemo.analyzePages,

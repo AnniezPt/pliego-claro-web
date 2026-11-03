@@ -509,7 +509,7 @@
     try { save(); } catch (_) { persistent = false; }
   }
   function enter() {
-    activateSession({ name: "Demo", email: "demo@licitia.invalid" });
+    activateSession({ name: "Demo", email: "demo@pliegoclaro.invalid" });
     const workspace = { id: WS, name: load().settings.data.workspaceName || "Mi empresa", role: load().members.find((member) => member.userId === ME)?.role || "owner" };
     state.workspaces = [workspace]; state.workspaceId = WS; state.role = workspace.role;
     return { ...workspaceData(), workspace };

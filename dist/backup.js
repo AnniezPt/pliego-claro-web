@@ -18,7 +18,7 @@
   }
 
   function validate(payload, current, defaults) {
-    check(isObject(payload) && payload.format === "pliego-claro-mvp", "No es una copia de LicitIA.");
+    check(isObject(payload) && payload.format === "pliego-claro-mvp", "No es una copia de Pliego Claro.");
     const version = payload.version ?? 1;
     check([1, 2].includes(version), "Versión de copia no compatible.");
     rows(payload.opportunities, "Oportunidades", ["id", "title"]);
