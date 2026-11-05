@@ -1,11 +1,11 @@
 # Estado de la entrega · 8 de octubre de 2026
 
-Repositorio: https://github.com/nestorguerra/pliego-claro · Web: https://nestorguerra.github.io/pliego-claro/
+Repositorio: https://github.com/AnniezPt/pliego-claro-web · Copia pendiente de publicación
 Base recibida: `5b928fc` (AnniezPt/pliego-claro). Correcciones en la PR #1 (`terminar-saas`).
 
 ## Situación real
 
-**El servicio NO está listo todavía.** El código está terminado y probado de forma aislada, pero falta que Néstor cree el proyecto de Supabase, el correo (Resend) y la clave de Anthropic, y los guarde como secretos de GitHub. Hasta entonces la web muestra «Falta la conexión con el servidor». La comprobación de entrega del despliegue (`ops/health_check.py`) lo dice explícitamente en cada ejecución.
+**El servicio NO está listo todavía.** El código está terminado y probado de forma aislada, pero falta configurar el proyecto de Supabase, el correo (Resend) y la clave de Anthropic, y guardarlos como secretos de GitHub. Hasta entonces la web muestra «Falta la conexión con el servidor». La comprobación de entrega del despliegue (`ops/health_check.py`) lo dice explícitamente en cada ejecución.
 
 Etiquetas: **Real** = probado en el servicio publicado · **Aislado** = probado con pruebas automáticas o en el navegador sin servidor · **Pendiente** = requiere el servicio real.
 
@@ -41,5 +41,5 @@ Etiquetas: **Real** = probado en el servicio publicado · **Aislado** = probado 
 - Pruebas reales A01–A17 pendientes de los accesos.
 - Lectura automática de DOC/DOCX/ZIP no implementada: se archivan con su huella y se revisan manualmente.
 - Los análisis de IA y avisos se conservan en la copia como consulta; no se recrean al restaurar.
-- R27 (validación con una empresa real): pendiente de que Néstor coordine empresa y expediente vigente.
+- R27 (validación con una empresa real): pendiente de acordar una prueba con una empresa y un expediente vigente.
 - Texto de privacidad pendiente de revisión legal.

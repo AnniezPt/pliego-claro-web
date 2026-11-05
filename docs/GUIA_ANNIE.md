@@ -1,6 +1,8 @@
 # Guía rápida de Pliego Claro
 
-**Dirección:** https://nestorguerra.github.io/pliego-claro/
+**Repositorio:** https://github.com/AnniezPt/pliego-claro-web
+
+Esta copia todavía no está publicada.
 
 ## 1. Entrar
 1. Pulsa **Crear cuenta**: nombre, empresa, correo y una contraseña de al menos 10 caracteres con letras y números.
@@ -31,4 +33,4 @@ La firma y la presentación siempre se hacen en el portal oficial, por una perso
 - Lo borrado va a la **Papelera** (Ajustes) y se puede restaurar.
 
 ## Quién administra qué
-Néstor Guerra administra el repositorio de GitHub, el proyecto de Supabase, Resend y la clave de Anthropic. Para cortar la IA de inmediato, pon `ai_enabled = 0` en la tabla `app_limits` de Supabase.
+Annie administra este repositorio. El servicio con cuentas, correo e IA requiere configurar y verificar las cuentas correspondientes. Para cortar la IA de inmediato, pon `ai_enabled = 0` en la tabla `app_limits` de Supabase.

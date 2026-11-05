@@ -14,7 +14,7 @@ const dataset = JSON.parse(await fs.readFile(path.join(dist, 'demo/licitaciones.
 const workspace = { seeded: true, expedientes: {}, settings: { data: {}, version: 1 }, notes: [], roles: [], members: [], tables: {} };
 const context = vm.createContext({
   URL, Date, crypto: webcrypto, Intl,
-  document: { baseURI: 'https://nestorguerra.github.io/pliego-claro/' },
+  document: { baseURI: 'https://anniezpt.github.io/pliego-claro-web/' },
   fetch: async (file) => ({ blob: async () => new Blob([await fs.readFile(path.join(dist, file))]) })
 });
 for (const name of ['workflow.js', 'features.js', 'cloud.js', 'demo.js', 'demo-seed.js']) {

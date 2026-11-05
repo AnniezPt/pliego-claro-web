@@ -10,7 +10,7 @@ insert into public.app_limits (key, value, note) values
   ('ai_enabled', 1, 'Interruptor operativo: 0 detiene cualquier análisis nuevo de inmediato.'),
   ('ai_max_cost_per_analysis_usd', 1, 'Coste máximo estimado de un análisis; si se supera, no se llama al proveedor.')
 on conflict (key) do nothing;
-update public.app_limits set value = 15, note = 'Presupuesto mensual autorizado por Néstor Guerra (8 oct 2026). Corte de la aplicación.' where key = 'ai_monthly_budget_usd';
+update public.app_limits set value = 15, note = 'Tope mensual de la aplicación: 15 USD. Configurar también el límite del proveedor antes de activar la IA.' where key = 'ai_monthly_budget_usd';
 
 -- Una sola transacción decide si se puede gastar, con un cerrojo global: dos solicitudes
 -- simultáneas no pueden superar el presupuesto ni lanzar dos veces el mismo análisis.

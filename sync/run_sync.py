@@ -32,7 +32,7 @@ except ImportError:  # pragma: no cover
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SECRET = os.environ.get("SUPABASE_SECRET_KEY", "")
-USER_AGENT = "PliegoClaro/1.0 (+https://github.com/nestorguerra/pliego-claro)"
+USER_AGENT = "PliegoClaro/1.0 (+https://github.com/AnniezPt/pliego-claro-web)"
 MADRID = ZoneInfo("Europe/Madrid")
 
 

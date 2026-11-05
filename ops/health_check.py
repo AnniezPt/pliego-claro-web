@@ -10,7 +10,7 @@ import sys
 import urllib.error
 import urllib.request
 
-SITE = os.environ.get("SITE_URL") or f"https://{os.environ.get('GITHUB_REPOSITORY_OWNER', 'nestorguerra')}.github.io/{os.environ.get('GITHUB_REPOSITORY', '/pliego-claro').split('/')[-1]}/"
+SITE = os.environ.get("SITE_URL") or f"https://{os.environ.get('GITHUB_REPOSITORY_OWNER', 'AnniezPt')}.github.io/{os.environ.get('GITHUB_REPOSITORY', '/pliego-claro-web').split('/')[-1]}/"
 REF, TOKEN = os.environ.get("PROJECT_REF", ""), os.environ.get("SUPABASE_ACCESS_TOKEN", "")
 checks = []  # (nombre, esencial, ok, detalle)
 

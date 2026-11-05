@@ -2,7 +2,9 @@
 
 Espacio de trabajo para decidir qué licitaciones públicas merecen tu tiempo y preparar las que sí: licitaciones oficiales de PLACSP, pliegos archivados con huella y citas a página, requisitos con evidencia, decisión GO / REVISAR / NO-GO razonada, tareas, avisos de cambios y análisis asistido por IA.
 
-**Aplicación:** https://nestorguerra.github.io/pliego-claro/
+**Repositorio:** https://github.com/AnniezPt/pliego-claro-web
+
+La publicación de esta copia está pendiente. Para revisarla en tu ordenador, consulta «Desarrollo local».
 
 > Piloto. No sustituye la revisión del expediente oficial ni el criterio profesional. La firma y presentación de ofertas siempre las hace una persona en el portal oficial.
 
